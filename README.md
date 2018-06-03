@@ -4,10 +4,23 @@ This POC implements the basic datamodel needed for a blogging platform.
 
 ## How to run the project.
 1. Clone the repo and navigate to project root.
-2. Install dependencies with ```yarn```.
-3. Deploy the 'dev' prisma db service with ```prisma deploy```. This will spin up a sandbox prisma server on prisma cloud.
-4. Run the graphql server locally: ```node src/index.js```
-5. Run the graphql playground with ```graphql playground```
+2. Install dependencies with
+```
+yarn
+```
+3. Deploy the 'dev' prisma db service with
+```
+prisma deploy
+```
+
+4. Run the graphql server locally:
+```
+node src/index.js
+```
+5. Run the graphql playground with
+```
+graphql playground
+```
 
 ### Exploring the playground
 On the left hand side of the graphql playground you will notice that you can switch between the graphql server and the prisma server.
