@@ -33,6 +33,6 @@ If you select prisma you will be able to introspect and query agains the prisma 
 - query for all posts containing a keyword you know you included in your draft "content".
 - finally publish the draft.
 
-The scheme introspect tab on the right hand side will be your best friend while attempting to do this and much much more.
+The scheme introspect tab on the right hand side will be your best friend while attempting to do this and much much more. Also explore the introspect feature on the prisma service itself, notice all the db manipulations that were automatigically generated based on the datamodel defined in `prisma/datamodel.graphql`.
 
 :)
