@@ -5,7 +5,7 @@ const resolvers = require('./resolvers')
 const db = new Prisma({
   typeDefs: 'src/generated/prisma.graphql',
   endpoint: 'https://us1.prisma.sh/nathaniel-kitzke-3baa17/prisma-demo/dev',
-}),
+});
 
 const server = new GraphQLServer({
   typeDefs: 'src/schema.graphql',

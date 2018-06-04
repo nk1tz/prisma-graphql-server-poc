@@ -43,6 +43,7 @@ const Mutation = {
       {
         data: {
           name: args.name,
+          email: args.email
         },
       },
       info,
