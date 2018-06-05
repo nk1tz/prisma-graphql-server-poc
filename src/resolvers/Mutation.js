@@ -6,7 +6,7 @@ const Mutation = {
 
   signup: async (_, args, context, info) => {
     const password = await bcrypt.hash(args.password, 9)
-    const user = await context.prisma.createUser({
+    const user = await context.prisma.mutation.createUser({
         data: { ...args, password }
     })
     return {
