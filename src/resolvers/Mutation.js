@@ -10,7 +10,7 @@ const Mutation = {
         data: { ...args, password }
     })
     return {
-      token: jwt.sign({ userId: user.id }, process.env.APP_SECRET),
+      token: jwt.sign({ userId: user.id }, 'shhhhh'),
       user,
     }
   },
@@ -27,7 +27,7 @@ const Mutation = {
     }
 
     return {
-      token: jwt.sign({ userId: user.id }, process.env.APP_SECRET),
+      token: jwt.sign({ userId: user.id }, 'shhhhh'),
       user,
     }
   },
